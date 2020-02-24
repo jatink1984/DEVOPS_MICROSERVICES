@@ -1,12 +1,8 @@
 #!/usr/bin/env bash
-
-## Complete the following steps to get Docker running locally
-
-# Step 1:
-# Build image and add a descriptive tag
-
-# Step 2: 
-# List docker images
-
-# Step 3: 
+image_name=sniizzer/udacity_microservice_project
+echo $image_name
+#build docker image
+docker build -t $image_name -f Dockerfile .
+docker images
 # Run flask app
+docker run -ti --rm -p 80:80 $image_name
