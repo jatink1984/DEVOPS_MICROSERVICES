@@ -6,8 +6,8 @@ In this project, you will apply the skills you have acquired in this course to o
 
 You are given a pre-trained, `sklearn` model that has been trained to predict housing prices in Boston according to several features, such as average rooms in a home and data about highway access, teacher-to-pupil ratios, and so on. You can read more about the data, which was initially taken from Kaggle, on [the data source site](https://www.kaggle.com/c/boston-housing). This project tests your ability to operationalize a Python flask app—in a provided file, `app.py`—that serves out predictions (inference) about housing prices through API calls. This project could be extended to any pre-trained machine learning model, such as those for image recognition and data labeling.
 
-### Project achieves three objectives
-1. Run app locally
+### Project capabilities 
+1. Run app locally and make price prediction
 2. Run app inside a docker container
 3. Run app inside a Kubernetes cluster
 
@@ -18,12 +18,11 @@ You are given a pre-trained, `sklearn` model that has been trained to predict ho
 3.Install dependencies: make install or pip install -r requirements.txt
 4.Run app: python app.py
 ```
-
-
 ### 2. Running app inside a docker container 
 ```
 1. Install docker
-2. Run in Docker:  `./run_docker.sh` with app exposed on port 80
+2. Run the shell script:  `./run_docker.sh` with app exposed on port 80
+3. Make prediction by executing `make_prediction.sh`
 ```
 ### 3. Run app inside a Kubernetes cluster
 ```
