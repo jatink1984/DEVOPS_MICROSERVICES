@@ -1,4 +1,4 @@
-<include a CircleCI status badge, here>
+[![CircleCI](https://circleci.com/gh/jatink1984/DEVOPS_MICROSERVICES.svg?style=svg)](https://app.circleci.com/github/jatink1984/DEVOPS_MICROSERVICES/pipelines)
 
 ## Project Overview
 
